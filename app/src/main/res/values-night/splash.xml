@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MABI.Splash_SCREEN" parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">
+            @color/Spider
+        </item>
+
+        <item name="windowSplashScreenAnimatedIcon">
+            @drawable/avd_mabi_night
+        </item>
+
+        <item name="windowSplashScreenAnimationDuration">
+            1000
+        </item>
+
+        <item name="postSplashScreenTheme">
+            @style/Theme.MABI
+        </item>
+
+    </style>
+</resources>

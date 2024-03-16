@@ -1,0 +1,55 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="288dp"
+            android:height="288dp"
+            android:viewportWidth="288"
+            android:viewportHeight="288">
+            <group
+                android:name="group"
+                android:pivotX="144"
+                android:pivotY="144"
+                android:scaleX="0.85"
+                android:scaleY="0.85">
+                <path
+                    android:name="path"
+                    android:pathData="M 189.715 89.129 L 174.367 89.129 C 169.091 89.129 168.291 92.647 167.173 94.565 L 145.109 133.895 L 123.207 94.565 C 121.927 92.647 121.287 89.129 115.851 89.129 L 100.025 89.129 C 96.347 89.129 95.387 90.887 95.387 93.765 L 95.387 189.851 C 95.387 193.527 97.147 194.487 100.025 194.487 L 115.851 194.487 C 118.729 194.487 120.489 193.527 120.489 189.851 L 120.489 135.653 L 136.635 163.631 C 137.435 164.909 138.715 166.989 141.113 166.989 L 149.107 166.989 C 151.505 166.989 152.943 164.909 153.743 163.631 L 169.731 135.653 L 169.731 189.851 C 169.731 193.527 171.489 194.487 174.367 194.487 L 189.715 194.487 C 192.593 194.487 194.351 193.527 194.351 189.851 L 194.351 93.765 C 194.351 90.887 193.391 89.129 189.715 89.129 Z"
+                    android:fillColor="#ffbd59"
+                    android:strokeWidth="1"/>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="group">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="scaleX"
+                    android:startOffset="200"
+                    android:duration="500"
+                    android:valueFrom="0"
+                    android:valueTo="0.85"
+                    android:valueType="floatType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+                <objectAnimator
+                    android:propertyName="scaleY"
+                    android:startOffset="200"
+                    android:duration="500"
+                    android:valueFrom="0"
+                    android:valueTo="0.85"
+                    android:valueType="floatType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+                <objectAnimator
+                    android:propertyName="rotation"
+                    android:startOffset="250"
+                    android:duration="350"
+                    android:valueFrom="0"
+                    android:valueTo="360"
+                    android:valueType="floatType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>
